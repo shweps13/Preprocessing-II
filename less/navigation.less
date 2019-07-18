@@ -1,27 +1,35 @@
 // Navigation Styles here
 .headertop {
-    // background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 29.25%;
     border-bottom: 2px dashed @navigation-border;
-    .logo {
-        padding-top: 2%;
-    }
-    .nav {
-        // background-color: bisque;
-        width: 50%;
+    .top {
         display: flex;
-        justify-content: flex-end;
-        padding-top: 3%;
-        a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: black;
-        margin-right: 15%;
+        justify-content: space-between;
+        padding: 1% 0;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        .logo {
+            display: flex;
+            margin-top: 2%;
+            // margin-left: 20%;
+            width: 20%;
+            // background-color: red;
         }
-        a:last-child {
-        margin-right: 0;
+        .nav {
+            // background-color: bisque;
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 3%;
+            a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+            margin-right: 15%;
+            }
+            a:last-child {
+            margin-right: 5%;
+            }
         }
     }
 }

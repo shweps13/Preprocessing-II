@@ -65,7 +65,7 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
-
+    border-bottom: 2px dashed @navigation-border;
     .destination {
       width: 30%;
       margin-bottom: 30px;
@@ -74,6 +74,29 @@
       .button(aqua - 90%, 80%, white);
     }
   }
+
+  .form {
+    margin: 3% 0;
+    // background-color: aquamarine;
+    label {
+      // background-color: red;
+      font-size: 1.6rem;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      margin: 0 5%;
+      // background-color: aqua;
+      
+    }
+    .bntform {
+      .button(aqua - 90%, 40%, white);
+      margin: 3% 28%;
+      padding: 2% 0;
+    }
+  }
+
   @media @mobile {
     .headerbottom {
       margin: 0 4%;

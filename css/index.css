@@ -270,6 +270,7 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-pick .destination {
   width: 30%;
@@ -289,6 +290,37 @@ img {
   padding-top: 5%;
 }
 .home .content-pick .btn:hover {
+  background-color: white;
+  color: #00a5a5;
+}
+.home .form {
+  margin: 3% 0;
+}
+.home .form label {
+  font-size: 1.6rem;
+}
+.home .form form {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 5%;
+}
+.home .form .bntform {
+  display: block;
+  background-color: #00a5a5;
+  cursor: pointer;
+  width: 40%;
+  height: 18%;
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding-top: 5%;
+  margin: 3% 28%;
+  padding: 2% 0;
+}
+.home .form .bntform:hover {
   background-color: white;
   color: #00a5a5;
 }

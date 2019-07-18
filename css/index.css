@@ -199,6 +199,24 @@ img {
 .headertop .top .nav a:last-child {
   margin-right: 5%;
 }
+@media (max-width: 500px) {
+  .headertop .top {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .headertop .top .logo {
+    width: 100%;
+    text-align: center;
+    padding-left: 37%;
+  }
+  .headertop .top .nav {
+    width: 100%;
+  }
+  .headertop .top .nav a {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .home .headerbottom {
   border-bottom: 2px dashed #C0C0C0;
 }

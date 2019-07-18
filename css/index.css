@@ -242,6 +242,23 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  display: block;
+  background-color: #00a5a5;
+  cursor: pointer;
+  width: 80%;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding-top: 5%;
+}
+.home .content-pick .btn:hover {
+  background-color: white;
+  color: #00a5a5;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

@@ -241,7 +241,7 @@ img {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-.home .content-section .mob-img-content {
+.home .content-section .mobimg-content {
   display: none;
   border-radius: 10px;
   width: 100%;
@@ -307,14 +307,17 @@ img {
   .home .content-section .img-content {
     width: 100%;
     padding-top: 3%;
+    display: flex;
+    justify-content: center;
   }
-  .home .content-section .img-content:nth-child(2) {
+  .home .content-section .rounded {
     display: none;
   }
-  .home .content-section .mob-img-content {
-    display: inline-block;
+  .home .content-section .mobimg-content {
+    display: flex;
+    justify-content: center;
   }
-  .home .content-section .mob-img-content .img-fluid {
+  .home .content-section .mobimg-content .mobimg {
     border-radius: 10px;
   }
   .home .content-destination {

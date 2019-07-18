@@ -321,6 +321,38 @@ img {
     margin: 4% 4% 7% 4%;
     width: 92%;
   }
+  .home .content-pick {
+    width: 92%;
+    margin: 0 4%;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .home .content-pick .destination {
+    width: 80%;
+    margin: 3% 10% 0 10%;
+    padding-bottom: 5%;
+  }
+  .home .content-pick .btn {
+    display: block;
+    background-color: #00a5a5;
+    cursor: pointer;
+    width: 80%;
+    height: 18%;
+    font-size: 2rem;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 5%;
+    margin: 2% 0 0 0;
+    width: 100%;
+    padding-bottom: 4%;
+  }
+  .home .content-pick .btn:hover {
+    background-color: white;
+    color: #00a5a5;
+  }
 }
 .footer {
   width: 100%;

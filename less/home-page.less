@@ -29,6 +29,11 @@
         border-radius: 10px;
       }
     }
+    .mob-img-content {
+      display: none;
+      border-radius: 10px;
+      width: 100%;
+    }
   }
 
   .inverse-content {
@@ -67,6 +72,37 @@
     }
     .btn {
       .button(aqua - 90%, 80%, white);
+    }
+  }
+  @media @mobile {
+    .headerbottom {
+      margin: 0 4%;
+    }
+    .content-section {
+      // background-color: aquamarine;
+      margin: 2% 4%;
+      flex-direction: column;
+      .text-content {
+        width: 100%;
+        padding-top: 3%;
+      }
+      .img-content {
+        width: 100%;
+        padding-top: 3%;
+      }
+      .img-content:nth-child(2) {
+        display: none;
+      }
+      .mob-img-content {
+        display: inline-block;
+        .img-fluid {
+          border-radius: 10px; 
+        }
+      }
+    }
+    .content-destination {
+      margin: 4% 4% 7% 4%;
+      width: 92%;
     }
   }
 }// home

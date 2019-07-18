@@ -241,6 +241,11 @@ img {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home .content-section .mob-img-content {
+  display: none;
+  border-radius: 10px;
+  width: 100%;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -286,6 +291,36 @@ img {
 .home .content-pick .btn:hover {
   background-color: white;
   color: #00a5a5;
+}
+@media (max-width: 500px) {
+  .home .headerbottom {
+    margin: 0 4%;
+  }
+  .home .content-section {
+    margin: 2% 4%;
+    flex-direction: column;
+  }
+  .home .content-section .text-content {
+    width: 100%;
+    padding-top: 3%;
+  }
+  .home .content-section .img-content {
+    width: 100%;
+    padding-top: 3%;
+  }
+  .home .content-section .img-content:nth-child(2) {
+    display: none;
+  }
+  .home .content-section .mob-img-content {
+    display: inline-block;
+  }
+  .home .content-section .mob-img-content .img-fluid {
+    border-radius: 10px;
+  }
+  .home .content-destination {
+    margin: 4% 4% 7% 4%;
+    width: 92%;
+  }
 }
 .footer {
   width: 100%;

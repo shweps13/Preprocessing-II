@@ -6,6 +6,7 @@
 
   <title>Fun Bus Travel Agency - Solution</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -15,11 +16,26 @@
 </head>
 
 <body>
-
-  
-     
+  <div class="headertop">
+    <div class="top">
+      <div class="logo">
+        <h2>Fun Bus</h2>
+      </div>
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div> 
   <div class="container home">
-   
+   <div class="headerbottom">
+      <img class="funbus" src="img/fun-bus.jpg" alt="Bun bus going to vacation">
+      <h2>Welcome To Fun Bus!</h2>
+      <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p>
+      <p>Expedition colorful design simple excursion blogger blogger design WordPress design, design organized website theme.</p>
+    </div>
     <section class="content-section">
       <div class="text-content">
         <h2>Let's Go!</h2>
@@ -38,6 +54,9 @@
         <h2>Adventure Awaits</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p> 
         <p>Expedition colorful design simple excursion blogger blogger design WordPress design, design organized website theme.</p>
+      <div class="mobimg-content">
+            <img src="img/fun.jpg" class="mobimg" alt="Lets have fun!">
+      </div>
       </div>
      
     </section>
@@ -64,10 +83,82 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+    <div class="form">
+        <h2>Contact us about your trip</h2>
+        <form name="htmlform">
+            <table width="70%">
+            </tr>
+            <tr>
+             <td valign="top">
+              <label for="first_name">First Name</label>
+             </td>
+             <td valign="top">
+              <input type="text" name="first_name" maxlength="50" size="30">
+             </td>
+            </tr>
+             
+            <tr>
+             <td valign="top">
+              <label for="last_name">Last Name</label>
+             </td>
+             <td valign="top">
+              <input type="text" name="last_name" maxlength="50" size="30">
+             </td>
+            </tr>
+            <tr>
+             <td valign="top">
+              <label for="email">Email</label>
+             </td>
+             <td valign="top">
+              <input type="text" name="email" maxlength="80" size="30">
+             </td>
+             
+            </tr>
+            <tr>
+             <td valign="top">
+              <label for="telephone">Phone</label>
+             </td>
+             <td valign="top">
+              <input type="text" name="telephone" maxlength="30" size="30">
+             </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                 <label for="direction">Direction</label>
+                </td>
+                <td valign="top">
+                    <select name="direcrion">
+                        <option value="Asia">Asia</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Europe">Europe</opton>
+                        <option value="NorthernAmerica">Northern America</opton>
+                        <option value="SouthernAmerica">Southern America</opton>
+                        <option value="Australia">Australia</opton>
+                        <option value="Islands">Islands</opton>
+                       </select>
+                </td>
+               </tr>
+            <tr>
+             <td valign="top">
+              <label for="comments">Comments</label>
+             </td>
+             <td valign="top">
+              <textarea name="comments" maxlength="1000" cols="50" rows="6"></textarea>
+             </td>
+             
+            </tr>
+            <tr>
+             <td colspan="2" style="text-align:center">
+              <input class="bntform" type="submit" value="Submit">
+             </td>
+            </tr>
+            </table>
+          </form>
+    </div>
   </div><!-- container -->
 
   <footer class="footer">
-    <p>Copyright Fun Bus 2018</p>
+    <p>Copyright Fun Bus 2019</p>
   </footer>
 
 </body>
